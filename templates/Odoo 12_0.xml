@@ -1,0 +1,160 @@
+<templateSet group="Odoo 12.0">
+  <template name="ofm2o" value="$field_name$ = fields.Many2one(comodel_name='$comodel_name$', string='$string$')" description="Odoo Field Many2one" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comodel_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofm2m" value="$field_name$ = fields.Many2many(comodel_name='$comodel_name$', string='$string$')" description="Odoo Field Many2many" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comodel_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofo2m" value="$field_name$ = fields.One2many(comodel_name='$comodel_name$', inverse_name='$inverse_name$', string='$string$')" description="Odoo Field One2many" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comodel_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="inverse_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofbin" value="$field_name$ = fields.Binary(string='$string$')" description="Odoo Field Binary" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofbool" value="$field_name$ = fields.Boolean(string='$string$')" description="Odoo Field Boolean" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofchar" value="$field_name$ = fields.Char(string='$string$')" description="Odoo Field Char" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofdate" value="$field_name$ = fields.Date(string='$string$')" description="Odoo Field Date" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofdatetime" value="$field_name$ = fields.Datetime(string='$string$')" description="Odoo Field Datetime" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="offloat" value="$field_name$ = fields.Float(string='$string$')" description="Odoo Field Float" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofhtml" value="$field_name$ = fields.Html(string='$string$')" description="Odoo Field HTML" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofint" value="$field_name$ = fields.Integer(string='$string$')" description="Odoo Field Integer" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="oftext" value="$field_name$ = fields.Text(string='$string$')" description="Odoo Field Text" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="ofsel" value="$field_name$ = fields.Selection(string='$string$', selection=[('$val_1$', '$string_1$'), ('$val_2$', '$string_2$'),])" description="Odoo Field Selection" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="val_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="val_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omcreate" value="@api.model&#10;def create(self, values):&#10;    # Add code here&#10;    return super($class_name$, self).create(values)" description="Odoo Method Create" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="# Add code here" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omwrite" value="@api.multi&#10;def write(self, values):&#10;    # Add code here&#10;    return super($class_name$, self).write(values)" description="Odoo Method Write" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omunlink" value="@api.multi&#10;def unlink(self):&#10;    # Add code here&#10;    return super($class_name$, self).unlink()" description="Odoo Method Unlink" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omcomp" value="@api.depends('$field_name$')&#10;def _compute_$field_name$(self):&#10;    self.$field_name$ = ''" description="Odoo Method Compute" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omchange" value="@api.onchange('$field_name$')&#10;def _onchange_$field_name$(self):&#10;    self.$field_name$ = ''" description="Odoo Method Onchange" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omconst" value="@api.constrains('$field_name$')&#10;def _check_$field_name$(self):&#10;    if 1==1:&#10;        raise ValidationError()" description="Odoo Method Constrains" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="omodi" value="class $class_name$(models.Model):&#10;    _inherit = '$model_name$'" description="Odoo Inherit Model" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+  <template name="omod" value="class $class_name$(models.Model):&#10;    _name = '$model_name$'&#10;    _description = '$description$'&#10;&#10;    name = fields.Char(string='Name')" description="Odoo New Model" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+  <template name="oinit" value="# -*- coding: utf-8 -*-&#10;##############################################################################&#10;#&#10;#    Odoo, Open Source Management Solution, third party addon&#10;#    Copyright (C) 2004-2021 Vertel AB (&lt;http://vertel.se&gt;).&#10;#&#10;#    This program is free software: you can redistribute it and/or modify&#10;#    it under the terms of the GNU Affero General Public License as&#10;#    published by the Free Software Foundation, either version 3 of the&#10;#    License, or (at your option) any later version.&#10;#&#10;#    This program is distributed in the hope that it will be useful,&#10;#    but WITHOUT ANY WARRANTY; without even the implied warranty of&#10;#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#10;#    GNU Affero General Public License for more details.&#10;#&#10;#    You should have received a copy of the GNU Affero General Public License&#10;#    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.&#10;#&#10;##############################################################################&#10;&#10;from odoo import models, fields, api, _&#10;import logging&#10;&#10;&#10;_logger = logging.getLogger(__name__)" description="Odoo Init File" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+</templateSet>
