@@ -8,7 +8,7 @@ Settings and tools for PyCharm / IntelliJ
 
 ***Windows***:
 
-Move the 'templates' folder into C:\Users\<username>\AppData\Roaming\JetBrains\PyCharm2020.3\ (or \IntelliJIdea2020.3\)
+Move the 'templates' folder into %AppData%\JetBrains\PyCharm2020.3\ (or \IntelliJIdea2020.3\)
 
 Restart PyCharm / IntelliJ
 
